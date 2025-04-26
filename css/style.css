@@ -14,7 +14,7 @@
      top: 20px;
  }
 body {
-     background-image: url("/finalprojectW25/imgs/notebook-paper-background.avif");
+     background-image: url(/finalprojectW25/imgs/notebook-paper-background.avif);
      background-size: cover;       
      background-repeat: repeat;
      width: 100%;                                 
@@ -74,7 +74,7 @@ button:hover {
 } */
 
 .animation_controls {
-     background-image: url("/finalprojectW25/imgs/StickyNote.png");
+     background-image: url(/finalprojectW25/imgs/StickyNote.png);
      background-size: contain;
      background-repeat: no-repeat;
      background-position: center;
