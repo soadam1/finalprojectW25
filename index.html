@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo-drk.png" />
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>JavaScript Bella Animator</title>
+</head>
+<body>
+    <div class="skip"><a href="#main" tabindex="0">Skip to Main Content</a></div>
+    <header>
+    </header>
+    <main class="container" id = "main">
+        <h1>Bella Boopa Animation Simulator</h1>
+        <div class="options" >
+            <button class="move_button" id="move_button">Move Animation</button>
+        </div>
+        <div class="move_div">
+            <div class="animation_controls">
+                <fieldset>
+                <div class="form_flex" >
+                    <button class="move_init_pos" id="move_init_pos">Initial Image Position</button>
+                </div>
+                <div class="form_flex">
+                    <button class="move_end_pos" id="move_end_pos">End Image Position</button>
+                </div>
+                <div class="form_flex">
+                    <button class="animate_bella" id="animate_bella">Animate Bella</button>
+                </div>
+                <div class="form_flex">
+                    <label for="repeat_animation">Repeat Animation</label>
+                    <input type="checkbox" id="repeat_animation">
+                </div>
+                <div class="form_flex">
+                    <label for="animation_duration">Duration (seconds):</label>
+                    <input type="number" id="animation_duration" min="0.1" value="1">
+                </div>
+                <div class="form_flex">
+                <label for="animation_direction">Direction:</label>
+                <select id="animation_direction">
+                    <option value="normal" selected>Normal</option>
+                    <option value="reverse">Reverse</option>
+                    <option value="alternate">Alternate</option>
+                    <option value="alternate-reverse">Alternate-Reverse</option>
+                </select>
+                </div>
+                <div class="form_flex">
+                <label for="animation_timing">Timing Function:</label>
+                <select id="animation_timing">
+                    <option value="ease" selected>Ease</option>
+                    <option value="linear">Linear</option>
+                    <option value="ease-in">Ease-In</option>
+                    <option value="ease-out">Ease-Out</option>
+                    <option value="ease-in-out">Ease-In-Out</option>
+                </select>
+                </div>
+                </fieldset>
+            </div>
+            <img class="bella" src="/imgs/bella.png" alt="A beautiful Husky named Bella">
+            <img class="down_arrow" src="/imgs/down_arrow.png" alt="An arrow pointing down indicating end position for animation">              
+        </div>
+    </main>
+    <script src="js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+.skip a {
+     position: absolute;
+     top: -80px;
+     left: 200px;
+     font-size: 20px;
+     padding: 10px;
+     font-weight: bold;
+     border: 2px solid black;
+     background-color: #ddd;
+     text-align: center;
+     z-index: 1000;
+ }
+ .skip a:focus {
+     top: 20px;
+ }
+body {
+     background-image: url("/finalprojectW25/imgs/notebook-paper-background.avif");
+     background-size: cover;       
+     background-repeat: repeat;
+     width: 100%;                                 
+     margin: 0;       
+}
+
+.move_div {
+     display: none;
+     position: relative;
+}
+
+.bella {
+     position: absolute;
+     width: 30%;
+     z-index: 5;
+     transition: none;
+}
+
+.down_arrow {
+     position: absolute;
+     width: 5%;
+     z-index: 4;
+}
+
+.active {
+     background-color: aquamarine;
+}
+
+button, label, select, input{
+     position: relative;
+     z-index: 10;
+     font-size: 24px;
+     padding: 6px 8px;
+     border-radius: 4px;
+     border: none;
+     margin: 0;
+}
+
+
+#animation_duration {
+     width: 30%;
+}
+
+/* button {
+     border: none;
+     border-radius: 4px;
+     background-color: lightpink;
+     box-shadow: 0px 0px 5px lightpink,
+     0px 0px 25px lightpink;
+}
+
+button:hover {
+     box-shadow: 0px 0px 5px lightpink,
+     0px 0px 25px lightpink,
+     0px 0px 50px lightpink,
+     0px 0px 100px lightpink;
+} */
+
+.animation_controls {
+     background-image: url("/finalprojectW25/imgs/StickyNote.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 480px;
+     height: 480px;
+     padding: 100px 30px 30px 30px;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: flex-start;
+     gap: 10px;
+}
+
+.form_flex {
+     display: flex;
+     justify-content: space-evenly;
+     margin-bottom: 10px;
+}
+
+h1 {
+     font-size: 50px;
+}
